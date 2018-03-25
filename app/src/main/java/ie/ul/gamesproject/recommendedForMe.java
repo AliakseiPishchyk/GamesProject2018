@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class myFavourites extends Activity {
+public class recommendedForMe extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_favourites);
+        setContentView(R.layout.recommended_for_me);
     }
 
     public void onClickHome(View view) {

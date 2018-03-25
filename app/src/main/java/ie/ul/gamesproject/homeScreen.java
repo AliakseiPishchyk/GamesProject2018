@@ -15,14 +15,19 @@ public class homeScreen extends Activity {
 
     public void onClickMyFavourites(View view) {
         Intent intent = new Intent(this, myFavourites.class);
-
-
+        startActivity(intent);
     }
 
+
+
     public void onClickSearchGames(View view) {
+        Intent intent = new Intent(this, SearchGames.class);
+        startActivity(intent);
     }
 
     public void onClickRecommendedForMe(View view) {
+        Intent intent = new Intent(this, recommendedForMe.class);
+        startActivity(intent);
 
     }
 }
